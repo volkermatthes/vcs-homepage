@@ -1,0 +1,35 @@
+:root {
+  --primary-300: #00d3a6;
+  --black: #013A51;
+  --white: #ffffff;
+  --primary-400: #00b78f;
+  --grey-200: #adc6d5;
+  --grey-100: #dfebf3;
+
+  --container-width: 1004px;
+  --border-radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'GT Haptik';
+  font-size: 16px;
+  color: var(--black);
+  background: var(--white);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
